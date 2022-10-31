@@ -1,0 +1,17 @@
+{
+  "name": "usdcswap",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Nick",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "swap": "node src/index.js"
+  },
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  }
+}
